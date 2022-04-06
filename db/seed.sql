@@ -1,9 +1,9 @@
-USE employee_db;
+USE employees_db;
 
-INSERT INTO department (name) VALUES ("Sales");
-INSERT INTO department (name) VALUES ("Hardware Development");
-INSERT INTO department (name) VALUES ("Software Development");
-INSERT INTO department (name) VALUES ("Recruiting");
+INSERT INTO department (department_name) VALUES ("Sales");
+INSERT INTO department (department_name) VALUES ("Hardware Development");
+INSERT INTO department (department_name) VALUES ("Software Development");
+INSERT INTO department (department_name) VALUES ("Recruiting");
 
 INSERT INTO roles (title, salary, department_id) VALUES ("Senior Sotware Developer", 70, 3);
 INSERT INTO roles (title, salary, department_id) VALUES ("Junior Software Developer", 50, 3);
